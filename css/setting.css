@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #ff817e;
+  --gray-dark: #263a41;
+  --gray-light: #888;
+  --white: white;
+  --black: black;
+  --bg-block: #fff9f8;
+  --primary-font: "Roboto";
+  --secondary-font: "Rufina";
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  color: var(--gray-dark);
+  background-color: var(--white);
+  line-height: 1.4;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
