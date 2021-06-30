@@ -73,7 +73,6 @@
     margin-bottom: 0;
   }
 }
-
 /*Header Menu*/
 .menu {
   margin-left: 14%;
@@ -631,7 +630,6 @@
     border-left: 1px solid #f2f2f2;
     min-width: 20rem;
     transition: transform 0.25s linear;
-    will-change: transform;
     transform: translateX(100%);
   }
   .header .menu.is-open {
